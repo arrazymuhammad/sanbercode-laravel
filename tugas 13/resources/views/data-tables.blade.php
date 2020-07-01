@@ -450,3 +450,6 @@
 	  });
 	</script>
 @endpush
+@push('style')
+	<link rel="stylesheet" href="{{asset('adminlte')}}/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+@endpush
