@@ -11,7 +11,7 @@
             @foreach($list_pertanyaan->sortByDesc('created_at') as $pertanyaan)
             <div class="card card-default">
                 <div class="card-header">
-                    <a href="{{url('jawaban', $pertanyaan->id)}}" class="text-dark"><b>{{$pertanyaan->title}}</b></a>
+                    <a href="{{url('pertanyaan', $pertanyaan->id)}}" class="text-dark"><b>{{$pertanyaan->title}}</b></a>
                     <label for="" class="label label-default float-right">{{$pertanyaan->created_at->format('d M Y H:i')}}</label>
                 </div>
                 <div class="card-body">
